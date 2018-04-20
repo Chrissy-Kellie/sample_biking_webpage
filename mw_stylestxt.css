@@ -1,0 +1,123 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Crystal K. Holt	
+   Date: 4/15/18  
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+/* TODO#5 */
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* TODO #7*/
+nav {
+   background-color: rgb(125, 120, 89);
+}
+
+nav ul {
+   line-height: 3em;
+   list-style-type: none;
+}
+
+nav ul li a {
+   color: white;
+   color: rgba(255, 255, 255, 0.5);
+   text-decoration: none;
+}
+
+/* TODO #9 */
+
+nav ul li:hover {
+   background-color: rgb(131, 121, 36);
+   list-style-image: url(wheelmarker.png);
+}
+
+nav ul li a:hover {
+   color: yellow;
+   color: rgba(255, 255, 255, 1);
+}
+
+/* TODO #10 */
+#leftsection > p:first-of-type:first-line {
+   text-transform: uppercase;
+    
+}
+
+/* TODO # 13 */
+#rightsection h1 {
+    font-size: 22px;
+    kerning: 3px;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* TODO #13 */
+#rightsection h2 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: none;
+}
+
+/* TODO #13 */
+#rightsection p {
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* TODO #11 */
+blockquote {
+    background-color: rgba(131, 121, 36);
+    color: white;
+    font-size: 16px;
+    font-family: "Comic Sans MS", "Times New Roman", Times, cursive;    
+}
+
+/* TODO #12 */
+blockquote { quotes: '\201c' '\201d'; }
+p:before { content: open-quote; }
+p:after  { content: close-quote; }
+
+#articleheader { 
+    font-size: 18px;font-weight: normal;font-kerning: 7px;text-align: center;
+}
+p {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 600px;
+    line-height: 3em;
+    background-color: gray;
+}
+
+/* TODO #8 */
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    opacity: 50%;
+}
+
+/* TODO # 14*/
+footer {
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+
